@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SecondUI</string>
+    <string name="content_hello">Hello Android</string>
+</resources>

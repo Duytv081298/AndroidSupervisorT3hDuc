@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="112dp"
+        android:layout_height="156dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aodai" />
+
+    <com.t3h.demoanimation.CustomButton
+        android:id="@+id/btnTranslate"
+        android:textColor="#FFFFFF"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_default_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnAlpha"
+        android:textColor="#FFFFFF"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_default_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpha" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnRotate"
+        android:textColor="#FFFFFF"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_default_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnScale"
+        android:textColor="#FFFFFF"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_default_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnSet"
+        android:textColor="#FFFFFF"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_default_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set" />
+
+</LinearLayout>

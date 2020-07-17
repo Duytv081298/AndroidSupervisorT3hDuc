@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Van A"
+        android:textColor="#FFC107"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="SecondView"
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        android:id="@+id/tv_second"
+        android:layout_below="@+id/tv_name"
+        android:layout_toRightOf="@+id/tv_name"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Third"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        android:layout_above="@+id/tv_name"
+        android:layout_alignLeft="@+id/tv_name"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
